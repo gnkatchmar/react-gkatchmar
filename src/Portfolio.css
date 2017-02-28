@@ -49,12 +49,12 @@ a:active{
 	height: 50px;
 }*/
 
-section{
+/*section{
 	/*position:relative;
 	top:3em;
 	width: 708px;*/
-	/*background: #111;*/
-}
+	/*background: #111;
+}*/
 
 .fixed{
 	position: fixed;
@@ -223,9 +223,9 @@ button:focus{
 }
 
 .pf-img{
-	position: relative;
+	/*position: relative;
 	width: 33.33333%;
-	float: left;
+	float: left;*/
 }
 
 .caption{

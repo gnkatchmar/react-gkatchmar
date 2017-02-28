@@ -2,8 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 import ReactDOM from 'react-dom';
 
-var img = '';
-var cloudy = '';
+// var img = '';
 
 var propsObj = {
 
@@ -73,20 +72,20 @@ return (
 					<div id='portfolio' className='vh sec3'>
 						<div className='fluid portfolio'>
 							<h3 className='portfolioHead'>Portfolio</h3>
+								<hr />
 							<div className='images'>
 								<div className='pf-img'>
-								<img src={cloudy} alt='img' />
-								<div className='center caption'>
+									<div className='center caption'>
 									<br />
 									<div className='projectsHead'>The BigToDo</div>
+									<img src={require('./images/401Final.jpg')} />	
 									<p>
 										<strong>Code Fellows 401 final project using a full MEAN stack to create a streamlined, universal “to do” app (1/2017).</strong>
 									</p>
 								</div>
 								</div>
 								<div className='pf-img'>
-								<img src={cloudy} alt='img' />
-								<div className='center caption'>
+									<div className='center caption'>
 									<br />
 									<div className='projectsHead'>Spotify Fan Club</div>
 									<p>
@@ -95,8 +94,7 @@ return (
 								</div>
 								</div>
 								<div className='pf-img'>
-									<img src={cloudy} alt='img' />
-									<div className='center caption'>
+											<div className='center caption'>
 										<br />
 										<div className='projectsHead'>Food Truck Finder</div>
 										<p>
@@ -105,10 +103,10 @@ return (
 									</div>
 									</div>
 								<div className='pf-img'>
-									<img src={cloudy} alt='img' />
 									<div className='center caption'>
 										<br />
 										<div className='projectsHead'>Portland Weekend Brunch Finder</div>
+										<img src={require('./images/201Final.jpg')} />
 										<p>
 											<strong>Code Fellows 201 final project using geolocation, Google Places and Maps APIs to create a brunch finding app (8/2016).</strong>
 										</p>
