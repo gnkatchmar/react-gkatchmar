@@ -12,7 +12,6 @@ var propsObj = {
 	socialUrls: {
 
 		github: 'https://github.com/gnkatchmar',
-		twitter: 'https://twitter.com/GNKatchmar',
 		linkedIn: 'https://www.linkedin.com/in/gregory-katchmar-3a48275a/'
 
 	}
@@ -29,12 +28,31 @@ var Portfolio = React.createClass({
 
 	render: function () {
 
-		var {github,linkedIn,twitter} = this.props.socialUrls;
+		var {github,linkedIn} = this.props.socialUrls;
 
 		var header = this.props.header;
 
-		return (
-				<div className="Portfolio-Page">
+return (
+        <div className="Portfolio-Page">
+					{/*<nav>
+						<div className='fixed'>
+						<strong className='brand'>Name</strong>
+						<menu className='buttonGroup'>
+							<button className='nav-button'>
+								<a href='#home'>Home</a>
+							</button>
+							<button className='nav-button'>
+								<a href='#about'>About</a>
+							</button>
+							<button className='nav-button'>
+								<a href='#portfolio'>Portfolio</a>
+							</button>
+							<button className='nav-button'>
+								<a href='#contact'>Contact</a>
+							</button>
+						</menu>
+						</div>
+					</nav>*/}
 					<div id='home' className='vh sec1'>
 						<div ref='fluid' className='fluid'>
 							<header >
@@ -48,12 +66,10 @@ var Portfolio = React.createClass({
 								<a target='_blank' href={linkedIn} className='social-button'>
 									LinkedIn
 								</a>
-								<a target='_blank' href={twitter} className='social-button'>
-									Twitter
-								</a>
 							</section>
 						</div>
 					</div>{/*end sec1*/}
+
 					<div id='portfolio' className='vh sec3'>
 						<div className='fluid portfolio'>
 							<h3 className='portfolioHead'>Portfolio</h3>
@@ -110,6 +126,6 @@ var Portfolio = React.createClass({
 	}
 });
 
-ReactDOM.render(<Portfolio />, document.getElementById('content'));
+ReactDOM.render(<Portfolio />, document.getElementById('root'));
 
 export default Portfolio;

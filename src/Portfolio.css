@@ -26,7 +26,7 @@ h1{
 
 h2{
 	font-family: 'Ubuntu';
-  font-weigth: 300;
+  font-weight: 300;
 }
 
 a{
@@ -50,14 +50,15 @@ a:active{
 }*/
 
 section{
-	position:relative;
+	/*position:relative;
 	top:3em;
-	width: 708px;
+	width: 708px;*/
+	/*background: #111;*/
 }
 
 .fixed{
 	position: fixed;
-	background: #eee;
+	/*background: #eee;*/
 	height: 50px;
 	width: 100%;
 }
@@ -167,20 +168,20 @@ button:focus{
 
 /*sections*/
 
-/*
-.sec2{
+
+/*.sec2{
 	top: 100vh;
 	background: #eee;
 	color: #000;
 }*/
 
 .sec3{
-	top: 200vh;
-	background: #111;
+	top: 50vh;
+	/*background: #111;*/
 }
 
 
-.description{
+/*.description{
 	width: 90%;
 	top:10%;
 }
@@ -199,7 +200,7 @@ button:focus{
 	clear: left;
   width: 30%;
 	margin: 2em;
-}
+}*/
 
 
 .portfolio{
@@ -309,11 +310,11 @@ button:focus{
 		margin-bottom: 2em;
 	}
 	
-	.nav-button{
+	/*.nav-button{
 		font-size: .9em;
 	}
 	.brand{
 		left: .5em;
-	}
+	}*/
 	
 }
